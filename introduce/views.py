@@ -22,3 +22,19 @@ def myintroduce(request):
 
 
 # Create your views here.
+
+
+# def introduce(request):
+#     # case 1
+#     access_log = AccessLog()
+#     access_log.location = 'introduce'
+#     access_log.save()
+
+#     #case 2
+#     AccessLog.objects.create(
+#         location = 'introduce'
+#     )
+
+#     # 데이터베이스에서 이쁘게 출력하는 방법
+#     def __str__(self):
+#         return f'{self.create_at} / {self.location}'
