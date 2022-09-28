@@ -8,5 +8,5 @@ class CustomModel(AbstractUser):
         db_table = 'customuser'
 
     address = models.TextField(
-        max_length=500, blank=True, null=None)
-    bio = models.TextField(max_length=500, blank=True, null=None)
+        max_length=500, blank=True, default='', null=None)
+    bio = models.TextField(max_length=500, blank=True, default='', null=None)
